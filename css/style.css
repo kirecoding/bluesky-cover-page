@@ -16,6 +16,8 @@ body {
 	flex-direction: column;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+	position: relative;
+	z-index: 1;
 }
 
 /* make profile photo + post sit side by side */
@@ -24,7 +26,9 @@ body {
 	flex-direction: row;
 	padding: 8rem 3rem 8rem 3rem;
 	gap: 1rem;
-	height: 100vh; /* ensures full page height */
+	height: 100vh;
+	/* black overlay for contrast */
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
 }
 
 /* profile photo column */
