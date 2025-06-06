@@ -6,7 +6,7 @@ A page that shows my latest Bluesky post using AT Protocol. Inspired by old-scho
 
 <img src="img/echo.jpg" alt="echo squarespace cover page with tweet" width="500" />
 
-## tiny tech stack + tools
+## tiny tech stack + all the tools
 
 [![HTML5](https://img.shields.io/badge/HTML5-fab387?style=flat-square&logo=html5&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-f9e2af?style=flat-square&logo=css3&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -16,4 +16,4 @@ A page that shows my latest Bluesky post using AT Protocol. Inspired by old-scho
 [![post.json](https://img.shields.io/badge/post.json-cba6f7?style=flat-square&logo=json&logoColor=black)](https://www.json.org/json-en.html)
 [![Terminal](https://img.shields.io/badge/Terminal-94e2d5?style=flat-square&logo=gnubash&logoColor=black)](https://www.gnu.org/software/bash/)
 [![VS Code](https://img.shields.io/badge/</>%20VS%20Code-b4befe?style=flat-square&logo=visualstudiocode&logoColor=black)](https://code.visualstudio.com/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://cloudflare.com)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-fab387?style=flat-square&logo=cloudflare&logoColor=black)](https://cloudflare.com)
