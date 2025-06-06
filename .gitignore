@@ -1,0 +1,5 @@
+# secret environment files
+.env
+.env.*
+.wrangler/
+wrangler.toml
