@@ -15,86 +15,82 @@ body {
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
-/* layout wrapper */
-.wrapper {
+/* make profile photo + post sit side by side */
+.main {
 	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
+	flex-direction: row;
+	padding: 8rem 3rem 8rem 3rem;
+	gap: 1rem;
+	height: 100vh; /* ensures full page height */
 }
 
-/* profile section */
+/* profile photo column */
 #profile-info {
+	flex: 0 0 auto;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	margin-top: 4rem;
-	margin-left: 4rem;
-	width: 80%;
+	align-items: flex-start;
 }
 
 .profile-pic {
-	width: 80px;
+	width: 50px;
 	border-radius: 100%;
+	margin-top: -5px;
 }
 
-#user-info {
-	padding-left: 1rem;
+/* content column */
+#post {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
 }
 
-.display-name,
-.footer-name {
-	font-size: 1.2rem;
-	margin: 0;
-}
-
-.handle {
+#user-info .display-name {
 	font-size: 1rem;
+	margin: 0 0 5px 0;
+}
+
+#user-info .handle {
+	font-size: 0.8rem;
 	opacity: 0.7;
 	margin: 0;
 }
 
-/* post section */
-#post-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	padding-left: 4rem;
-	padding-right: 4rem;
-	width: 70%;
-	flex: 1;
-}
-
 #post-text {
-	font-size: 4rem;
-	font-weight: 100;
-	font-family: "Nixie One", system-ui;
+	font-size: 2.6rem;
+	font-family: "Nixie One", serif;
+	width: 60%;
 }
 
-#post-date {
-	margin-top: 1rem;
-	opacity: 0.6;
-	font-size: 0.9rem;
-}
-
-/* footer / contact section */
-#contact-info {
+#icon-date {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	margin-top: auto;
-	padding: 4rem;
+	gap: 0.5rem;
+	margin: 25px 0 0 0;
+	font-size: 12px;
 }
 
+.bluesky-icon {
+	height: 12px;
+	width: 12px;
+	filter: brightness(0) invert(1);
+}
+
+#contact-info {
+	margin-top: auto;
+	padding-top: 2rem;
+}
+
+/* button styles */
 .btn {
 	background-color: transparent;
 	color: #fff;
 	border: 2px solid #fff;
-	padding: 1rem 1.2rem;
+	padding: 0.8rem 1rem;
 	font-size: 0.8rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -105,17 +101,4 @@ body {
 	color: #000;
 	border: 2px solid #000;
 	cursor: pointer;
-}
-
-#icon-date {
-	margin-top: 1rem;
-	display: flex;
-	flex-direction: row;
-}
-
-img.bluesky-icon {
-	height: 12px;
-	width: 12px;
-	margin-top: 1.1rem;
-	margin-right: 0.4rem;
 }
