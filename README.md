@@ -16,3 +16,4 @@ A page that shows my latest Bluesky post using AT Protocol. Inspired by old-scho
 [![post.json](https://img.shields.io/badge/post.json-cba6f7?style=flat-square&logo=json&logoColor=black)](https://www.json.org/json-en.html)
 [![Terminal](https://img.shields.io/badge/Terminal-94e2d5?style=flat-square&logo=gnubash&logoColor=black)](https://www.gnu.org/software/bash/)
 [![VS Code](https://img.shields.io/badge/</>%20VS%20Code-b4befe?style=flat-square&logo=visualstudiocode&logoColor=black)](https://code.visualstudio.com/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://cloudflare.com)
